@@ -1,0 +1,22 @@
+import React from "react";
+function qn1(){
+  let myobject={name:"Madras"};
+  let newObject=myobject;
+  myobject.name="Chennai";
+  console.log(newObject);
+
+  let myarray=["a","e","i","o","u"];
+  let vowelArray=myarray;
+  myarray.push("u");
+  console.log(vowelArray);
+  alert("Check the console output!");
+}
+
+const Greeting = () => {
+    return(
+        <div>
+            <button onClick={qn1}>Click1</button>
+        </div>
+    )
+}
+export default Greeting;
